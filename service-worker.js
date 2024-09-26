@@ -1,11 +1,11 @@
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open('v4').then((cache) => {
+    caches.open('calculator-v1').then((cache) => {
       return cache.addAll([
-        './index.html',
-        './style.css',
-        './script.js',
-        './aaa.png'  // 아이콘 파일 추가
+        '/',
+        '/index.html',
+        '/script.js',
+        '/aaa.png'
       ]);
     })
   );
