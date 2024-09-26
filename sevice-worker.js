@@ -2,10 +2,10 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open('v5').then((cache) => { 
       return cache.addAll([
-        '/',
-        '/index.html',
-        '/script.js',
-        '/aaa.png'
+        './',
+        './index.html',
+        './script.js',
+        './aaa.png'
       ]);
     })
   );
