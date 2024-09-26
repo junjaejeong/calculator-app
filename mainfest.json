@@ -7,7 +7,7 @@
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/aaa.png",  // 경로 수정
+      "src": "/junjaejeong/caluator-app/aaa/png",  // 경로 수정
       "sizes": "512x512",
       "type": "image/png"
     }
