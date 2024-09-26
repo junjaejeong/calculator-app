@@ -1,12 +1,11 @@
-
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open('v1').then((cache) => {
+    caches.open('v2').then((cache) => {
       return cache.addAll([
         './index.html',
         './style.css',
         './script.js',
-        './계산기.png',
+        './계산기.png'  // 아이콘 이미지 추가
       ]);
     })
   );
