@@ -5,7 +5,7 @@ self.addEventListener('install', (event) => {
         './index.html',
         './style.css',
         './script.js',
-        './계산기.PNG'  // 아이콘 파일 추가
+        './aaa.png'  // 아이콘 파일 추가
       ]);
     })
   );
