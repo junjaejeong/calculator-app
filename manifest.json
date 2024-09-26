@@ -7,7 +7,7 @@
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "https://your-actual-github-username.github.io/repository-name/계산기.PNG",
+      "src": "https://junjaejeong.github.io/calcuator-app/계산기.PNG",
       "sizes": "512x512",
       "type": "image/png"
     }
